@@ -29,7 +29,7 @@ class SongsController < ApplicationController
 
   def destroy
     Song.find(params[:id]).destroy
-    redirect_to song_path
+    redirect_to song_path(@song)
   end
 
   def index
