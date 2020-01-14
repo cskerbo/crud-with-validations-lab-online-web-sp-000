@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-resource :songs
+resources :songs
 end
