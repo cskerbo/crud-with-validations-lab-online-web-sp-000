@@ -1,2 +1,12 @@
-<h1>Songs#index</h1>
-<p>Find me in app/views/songs/index.html.erb</p>
+<h1>Songs Index</h1>
+<%= @songs.each do |s| %>
+<table style="width:100%">
+  <tr>
+    <th>Song Title</th>
+  </tr>
+  <tr>
+    <td>s.title</td>
+  </tr>
+
+</table>
+<p></p>
